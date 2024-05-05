@@ -57,8 +57,7 @@ def main():
     print("This program gives you the dice sumilation")
     ans = input("\nHit enter to continue and <q> to quit :")
     while ans != "q":
-        num = 1
-        # num = random.randrange(1,6)
+        num = random.randrange(1,6)
 
         # dices = Dice(num)
         Dice.get_side(num)
