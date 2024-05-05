@@ -1,3 +1,5 @@
+# This python program resembles a dice, that is a dice simulator
+
 import random 
 
 COLS = 3
@@ -5,11 +7,9 @@ ROWS = 5
 
 class Dice:
 
-    # def __init__(self,side):
-    #     self.side = side
 
-    @staticmethod
-    def get_side(side):
+    @staticmethod       #staticmethod utilized because this program doesnot have any instances
+    def get_side(side):     
            
         if side == 1:
             print("=========")
@@ -60,7 +60,7 @@ def main():
         num = random.randrange(1,7)
 
         # dices = Dice(num)
-        Dice.get_side(num)
+        Dice.get_side(num)     # calling the method without defining any instances
 
         ans = input("Hit enter to continue and <q> to quit :")
 
