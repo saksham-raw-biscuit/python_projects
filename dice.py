@@ -18,6 +18,7 @@ class Dice:
             print("|       |")
             print("=========")
 
+
         if side == 2:
             print("=========")
             print("|       |")
@@ -65,5 +66,8 @@ def main():
         # This is a sentinal loop
 
         ans = input("Hit enter to continue and <q> to quit :")
+
+
+        ##This program can also do programmed without defining and new class and just use a new function or with in the main function with exactly same logic and functionality
 
 main()
