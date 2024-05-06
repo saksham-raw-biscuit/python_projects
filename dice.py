@@ -62,6 +62,8 @@ def main():
         # dices = Dice(num)
         Dice.get_side(num)     # calling the method without defining any instances
 
+        # This is a sentinal loop
+
         ans = input("Hit enter to continue and <q> to quit :")
 
 main()
